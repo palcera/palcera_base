@@ -1,0 +1,29 @@
+{
+    "name": "palcera/starter",
+    "description": "Palcera Starter - A site template based on Drupal CMS with Schema.org, AI-ready content, and enhanced security.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/palcera/starter",
+    "require": {
+        "drupal/cva": "^1",
+        "drupal/drupal_cms_admin_ui": "^2",
+        "drupal/drupal_cms_anti_spam": "^2",
+        "drupal/drupal_cms_authentication": "^2",
+        "drupal/drupal_cms_content_type_base": "^2",
+        "drupal/drupal_cms_forms": "^2",
+        "drupal/drupal_cms_media": "^2",
+        "drupal/drupal_cms_privacy_basic": "^2",
+        "drupal/drupal_cms_search": "^2",
+        "drupal/drupal_cms_seo_basic": "^2",
+        "drupal/drupal_cms_accessibility_tools": "^2",
+        "drupal/easy_email_express": "^1",
+        "drupal/mercury": "^1",
+        "drupal/schemadotorg": "^1.0@alpha",
+        "drupal/schema_metatag": "^3.0",
+        "drupal/seckit": "^2.0",
+        "drupal/antibot": "^2.0",
+        "drupal/config_split": "^2.0",
+        "drupal/fast_404": "^3.0",
+        "drupal/http_cache_control": "^2.0"
+    }
+}
