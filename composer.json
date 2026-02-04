@@ -19,7 +19,6 @@
         "drupal/easy_email_express": "^1",
         "drupal/mercury": "^1",
         "drupal/schemadotorg": "^1.0@alpha",
-        "drupal/schema_metatag": "^3.0",
         "drupal/seckit": "^2.0",
         "drupal/antibot": "^2.0",
         "drupal/config_split": "^2.0",

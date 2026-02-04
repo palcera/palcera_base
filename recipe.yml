@@ -17,43 +17,20 @@ recipes:
   - drupal_cms_accessibility_tools
   - easy_email_express
 install:
-  # Theme - using Mercury for now, can create palcera_theme later
   - mercury
-  # CVA is needed for Mercury to work
   - cva
-  # Schema.org content modeling
   - schemadotorg
-  - schema_metatag
-  # Security
+  - schemadotorg_jsonld
   - seckit
   - antibot
-  # Config management
   - config_split
-  # Performance
   - fast_404
   - http_cache_control
 config:
-  strict: false
-  import:
-    system:
-      - system.menu.footer
-      - system.menu.main
   actions:
     system.theme:
       simpleConfigUpdate:
         default: mercury
-    system.site:
-      simpleConfigUpdate:
-        page.front: '/home'
-    # Disable Canvas components that aren't useful for page building
-    canvas.component.block.local_actions_block:
-      disable: []
-    canvas.component.block.local_tasks_block:
-      disable: []
-    canvas.component.block.project_browser_block.*:
-      disable: []
-    canvas.component.block.system_messages_block:
-      disable: []
 extra:
   recipe_installer_kit:
     finish_url: '/admin/dashboard/welcome'
