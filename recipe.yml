@@ -1,6 +1,6 @@
-name: Palcera Starter
+name: Palcera Base
 type: Site
-description: 'Palcera CMS starter template with Schema.org content modeling, AI-ready content, and enhanced security.'
+description: 'Palcera CMS base template with Schema.org content modeling, AI-ready content, and enhanced security.'
 recipes:
   - core/recipes/administrator_role
   - core/recipes/core_recommended_maintenance

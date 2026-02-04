@@ -1,9 +1,9 @@
 {
-    "name": "palcera/starter",
-    "description": "Palcera Starter - A site template based on Drupal CMS with Schema.org, AI-ready content, and enhanced security.",
+    "name": "palcera/palcera_base",
+    "description": "Palcera Base - A site template based on Drupal CMS with Schema.org, AI-ready content, and enhanced security.",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
-    "homepage": "https://github.com/palcera/starter",
+    "homepage": "https://github.com/palcera/palcera_base",
     "require": {
         "drupal/cva": "^1",
         "drupal/drupal_cms_admin_ui": "^2",
