@@ -1,0 +1,6 @@
+additional_trusted_composer_plugins:
+  # From drupal/core-dev
+  - tbachert/spi
+  # For Palcera CMS branding patches
+  - cweagans/composer-patches
+include_unknown_files_in_project_root: false

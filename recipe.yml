@@ -15,16 +15,24 @@ recipes:
   - drupal_cms_search
   - drupal_cms_seo_basic
   - drupal_cms_accessibility_tools
+  - drupal_cms_seo_tools
+  - drupal_cms_google_analytics
+  - project_browser
+  - selective_better_exposed_filters
+  - ui_icons_menu
   - easy_email_express
 install:
   - mercury
   - cva
   - schemadotorg
   - schemadotorg_jsonld
+  - schemadotorg_media
+  - schemadotorg_taxonomy
+  - schemadotorg_ui
   - seckit
   - antibot
   - config_split
-  - fast_404
+  - fast404
   - http_cache_control
 config:
   actions:
