@@ -1,5 +1,6 @@
 {
     "name": "palcera/palcera_base",
+    "version": "1.0.0-alpha1",
     "description": "Palcera Base - A site template based on Drupal CMS with Schema.org, AI-ready content, and enhanced security.",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
