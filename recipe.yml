@@ -24,11 +24,6 @@ recipes:
 install:
   - mercury
   - cva
-  - schemadotorg
-  - schemadotorg_jsonld
-  - schemadotorg_media
-  - schemadotorg_taxonomy
-  - schemadotorg_ui
   - seckit
   - antibot
   - config_split
