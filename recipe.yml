@@ -8,7 +8,6 @@ recipes:
   - drupal_cms_admin_ui
   - drupal_cms_anti_spam
   - drupal_cms_authentication
-  - drupal_cms_content_type_base
   - drupal_cms_forms
   - drupal_cms_media
   - drupal_cms_privacy_basic
@@ -17,18 +16,30 @@ recipes:
   - drupal_cms_accessibility_tools
   - drupal_cms_seo_tools
   - drupal_cms_google_analytics
-  - project_browser
-  - selective_better_exposed_filters
-  - ui_icons_menu
   - easy_email_express
 install:
+  # Schema.org content modeling
+  - schemadotorg
+  - schemadotorg_jsonld
+  - schemadotorg_media
+  - schemadotorg_taxonomy
+  - schemadotorg_metatag
+  - schemadotorg_pathauto
+  - schemadotorg_additional_mappings
+  # Theme and UI
   - mercury
   - cva
+  - ui_icons_menu
+  # Security
   - seckit
   - antibot
-  - config_split
+  # Performance
   - fast404
   - http_cache_control
+  # Development tools
+  - config_split
+  - project_browser
+  - selective_better_exposed_filters
 config:
   actions:
     system.theme:

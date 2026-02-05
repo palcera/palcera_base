@@ -1,0 +1,19 @@
+uuid: dd4cad50-1cd1-461c-81ac-f918dd5449e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.schema_works_for
+    - node.type.person
+id: node.person.schema_works_for
+field_name: schema_works_for
+entity_type: node
+bundle: person
+label: 'Works for'
+description: 'Organizations that the person works for.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

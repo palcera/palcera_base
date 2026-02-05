@@ -1,0 +1,19 @@
+uuid: ebeb27f1-813f-4649-9403-666ea8978638
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.schema_same_as
+field_name: schema_same_as
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 0c1b4a75-31c6-431f-b2e2-d4c684637b07
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - telephone
+id: node.schema_telephone
+field_name: schema_telephone
+entity_type: node
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
