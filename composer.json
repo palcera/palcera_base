@@ -20,7 +20,6 @@
         "drupal/drupal_cms_accessibility_tools": "^2",
         "drupal/project_browser": "^2",
         "drupal/selective_better_exposed_filters": "^3",
-        "drupal/ui_icons_menu": "^1",
         "drupal/easy_email_express": "^1",
         "drupal/mercury": "^1",
         "drupal/seckit": "^2.0",
