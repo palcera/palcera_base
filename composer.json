@@ -1,7 +1,6 @@
 {
     "name": "palcera/palcera_base",
-    "version": "1.0.0-alpha1",
-    "description": "Palcera Base - A site template based on Drupal CMS with Schema.org, AI-ready content, and enhanced security.",
+    "description": "Palcera Base - A site template based on Drupal CMS with enhanced security.",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
     "homepage": "https://github.com/palcera/palcera_base",
@@ -16,14 +15,18 @@
         "drupal/drupal_cms_privacy_basic": "^2",
         "drupal/drupal_cms_search": "^2",
         "drupal/drupal_cms_seo_basic": "^2",
+        "drupal/drupal_cms_seo_tools": "^2",
+        "drupal/drupal_cms_google_analytics": "^2",
         "drupal/drupal_cms_accessibility_tools": "^2",
+        "drupal/project_browser": "^2",
+        "drupal/selective_better_exposed_filters": "^3",
+        "drupal/ui_icons_menu": "^1",
         "drupal/easy_email_express": "^1",
         "drupal/mercury": "^1",
-        "drupal/schemadotorg": "^1.0@alpha",
         "drupal/seckit": "^2.0",
         "drupal/antibot": "^2.0",
         "drupal/config_split": "^2.0",
-        "drupal/fast_404": "^3.0",
+        "drupal/fast404": "^3.0",
         "drupal/http_cache_control": "^2.0"
     }
 }
