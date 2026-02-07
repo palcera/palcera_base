@@ -10,6 +10,8 @@ recipes:
   - drupal_cms_authentication
   - drupal_cms_forms
   - drupal_cms_media
+  - core/recipes/audio_media_type
+  - core/recipes/local_video_media_type
   - drupal_cms_privacy_basic
   - drupal_cms_search
   - drupal_cms_seo_basic
