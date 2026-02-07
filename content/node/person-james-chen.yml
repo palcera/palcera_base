@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b1b2c3d4-2222-4000-a000-000000000002
+  bundle: person
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'James Chen'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /team/james-chen
+      langcode: en
+  schema_given_name:
+    -
+      value: James
+  schema_family_name:
+    -
+      value: Chen
+  schema_email:
+    -
+      value: james@example.com
+  schema_telephone:
+    -
+      value: '+1-555-0102'
+  schema_description:
+    -
+      value: '<p>James is a software architect focused on open-source web technologies. He has contributed to multiple Drupal projects and advocates for structured data and accessible web experiences.</p>'
+      format: full_html
+  schema_works_for:
+    -
+      value: 'Palcera Inc.'
+  schema_same_as:
+    -
+      uri: 'https://linkedin.com/in/james-chen-example'
+      title: LinkedIn
+    -
+      uri: 'https://github.com/jameschen-example'
+      title: GitHub
+  schema_knows_language:
+    -
+      value: English
+    -
+      value: Mandarin

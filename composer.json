@@ -20,7 +20,7 @@
         "drupal/project_browser": "^2",
         "drupal/selective_better_exposed_filters": "^3",
         "drupal/easy_email_express": "^1",
-        "drupal/mercury": "^1",
+        "palcera/palcera_theme": "^1",
         "drupal/seckit": "^2.0",
         "drupal/antibot": "^2.0",
         "drupal/config_split": "^2.0",

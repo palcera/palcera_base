@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d1b2c3d4-4444-4000-a000-000000000001
+  bundle: general_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'About us'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /about
+      langcode: en
+  schema_text:
+    -
+      value: "<p>We are a team dedicated to building modern web experiences that are accessible, performant, and optimized for both people and search engines.</p><h2>Our approach</h2><p>We believe that great websites start with well-structured content. By using industry standards like Schema.org for content modeling, we ensure that every piece of content on your site is meaningful not just to your visitors, but also to search engines and AI platforms.</p><h2>What we do</h2><p>From content strategy to technical implementation, we help organizations establish a professional online presence that grows with their needs. Our solutions are built on open-source technology, giving you full ownership and flexibility over your digital assets.</p><h2>Our values</h2><p>Transparency, quality, and continuous improvement guide everything we do. We stay current with web standards and best practices so our clients benefit from the latest advances in web technology without the complexity of managing it themselves.</p>"
+      format: full_html
+  schema_related_link:
+    -
+      uri: 'internal:/team/elena-martinez'
+      title: 'Meet Elena Martinez'
+    -
+      uri: 'internal:/team/james-chen'
+      title: 'Meet James Chen'

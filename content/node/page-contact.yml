@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d1b2c3d4-4444-4000-a000-000000000002
+  bundle: general_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Contact us'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /contact
+      langcode: en
+  schema_text:
+    -
+      value: "<p>We would love to hear from you. Whether you have a question about our services, need help with your website, or just want to say hello, feel free to reach out.</p><h2>Get in touch</h2><p>Email us at <a href='mailto:hello@example.com'>hello@example.com</a> or give us a call at +1-555-0100. Our team typically responds within one business day.</p><h2>Office hours</h2><p>Monday through Friday, 9:00 AM to 5:00 PM (EST). We are happy to schedule meetings outside regular hours when needed.</p><h2>Location</h2><p>123 Web Street, Suite 200<br>Digital City, DC 10001<br>United States</p>"
+      format: full_html

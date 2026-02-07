@@ -22,6 +22,7 @@ recipes:
 install:
   # Schema.org content modeling
   - schemadotorg
+  - schemadotorg_node
   - schemadotorg_jsonld
   - schemadotorg_media
   - schemadotorg_taxonomy
@@ -29,8 +30,9 @@ install:
   - schemadotorg_pathauto
   - schemadotorg_additional_mappings
   # Theme and UI
-  - mercury
+  - palcera_theme
   - cva
+  - responsive_image
   - ui_icons_menu
   # Security
   - seckit
@@ -43,10 +45,22 @@ install:
   - project_browser
   - selective_better_exposed_filters
 config:
+  strict: false
+  import:
+    schemadotorg: '*'
+    schemadotorg_node: '*'
+    schemadotorg_media: '*'
+    schemadotorg_taxonomy: '*'
   actions:
+    core.extension:
+      executeInstallHook:
+        - schemadotorg
+        - schemadotorg_node
+        - schemadotorg_media
+        - schemadotorg_taxonomy
     system.theme:
       simpleConfigUpdate:
-        default: mercury
+        default: palcera_theme
 extra:
   recipe_installer_kit:
     finish_url: '/admin/dashboard/welcome'

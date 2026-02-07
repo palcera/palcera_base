@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b1b2c3d4-2222-4000-a000-000000000001
+  bundle: person
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Elena Martinez'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /team/elena-martinez
+      langcode: en
+  schema_given_name:
+    -
+      value: Elena
+  schema_family_name:
+    -
+      value: Martinez
+  schema_email:
+    -
+      value: elena@example.com
+  schema_telephone:
+    -
+      value: '+1-555-0101'
+  schema_description:
+    -
+      value: '<p>Elena is a digital strategist with over 10 years of experience helping organizations build their online presence. She specializes in content strategy, SEO, and data-driven marketing.</p>'
+      format: full_html
+  schema_works_for:
+    -
+      value: 'Palcera Inc.'
+  schema_same_as:
+    -
+      uri: 'https://linkedin.com/in/elena-martinez-example'
+      title: LinkedIn
+  schema_knows_language:
+    -
+      value: English
+    -
+      value: Spanish
