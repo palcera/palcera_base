@@ -41,7 +41,7 @@ default:
           CANVAS_ENTITY_REFERENCE:
             target_uuid: e0000001-0001-4000-a000-000000000001
             target_type: media
-        overlap_navbar: true
+        overlap_navbar: false
     -
       parent_uuid: 10000001-0001-4000-a000-000000000001
       slot: hero_slot
