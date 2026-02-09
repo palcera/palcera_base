@@ -5,19 +5,13 @@ _meta:
   bundle: tags
   default_langcode: en
 default:
-  status:
-    -
-      value: true
   name:
     -
-      value: Technology
-  weight:
-    -
-      value: 0
-  revision_translation_affected:
+      value: 'Tax Planning'
+  status:
     -
       value: true
   path:
     -
+      alias: /tags/tax-planning
       langcode: en
-      alias: null

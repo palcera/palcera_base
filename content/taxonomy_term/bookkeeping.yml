@@ -1,0 +1,17 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a1b2c3d4-1111-4000-a000-000000000004
+  bundle: tags
+  default_langcode: en
+default:
+  name:
+    -
+      value: 'Bookkeeping'
+  status:
+    -
+      value: true
+  path:
+    -
+      alias: /tags/bookkeeping
+      langcode: en

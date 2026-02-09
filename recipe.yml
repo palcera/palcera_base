@@ -6,6 +6,7 @@ recipes:
   - core/recipes/core_recommended_maintenance
   - core/recipes/core_recommended_performance
   - drupal_cms_admin_ui
+  - drupal_cms_content_type_base
   - drupal_cms_anti_spam
   - drupal_cms_authentication
   - drupal_cms_forms
@@ -47,6 +48,9 @@ install:
 config:
   strict: false
   import:
+    system:
+      - system.menu.footer
+      - system.menu.main
     schemadotorg: '*'
     schemadotorg_node: '*'
     schemadotorg_media: '*'
@@ -58,9 +62,24 @@ config:
         - schemadotorg_node
         - schemadotorg_media
         - schemadotorg_taxonomy
+    # Allow Canvas to render all content types.
+    field.storage.node.field_component_tree:
+      addToAllBundles:
+        label: Components
+        description: Stores a component tree for Canvas.
+    # Only show basic metatag fields on Canvas pages.
+    metatag.settings:
+      simpleConfigUpdate:
+        entity_type_groups:
+          canvas_page:
+            canvas_page:
+              basic: basic
     system.theme:
       simpleConfigUpdate:
         default: palcera_theme
+    system.site:
+      simpleConfigUpdate:
+        page.front: '/home'
 extra:
   recipe_installer_kit:
     finish_url: '/admin/dashboard/welcome'

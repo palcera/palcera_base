@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c1b2c3d4-3333-4000-a000-000000000002
+  bundle: article
+  default_langcode: en
+  depends:
+    b1b2c3d4-2222-4000-a000-000000000002: node
+    a1b2c3d4-1111-4000-a000-000000000003: taxonomy_term
+    a1b2c3d4-1111-4000-a000-000000000004: taxonomy_term
+    e0000001-0001-4000-a000-000000000009: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'When to hire a bookkeeper vs doing it yourself'
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /articles/bookkeeper-vs-diy
+      langcode: en
+  schema_abstract:
+    -
+      value: 'Handling your own books saves money early on, but there comes a point where professional bookkeeping pays for itself. Here is how to know when that time has come.'
+  schema_article_body:
+    -
+      value: "<p>Every business owner starts out wearing every hat, and bookkeeping is usually one of the first tasks they take on themselves. Spreadsheets and basic accounting software can carry you through the early stages, but as your business grows, the real question isn't whether you can do your own books — it's whether you should.</p><h2>When DIY bookkeeping works</h2><p>If you're a solo operator or very early-stage business with straightforward finances — a single bank account, a handful of monthly transactions, and no employees — doing your own bookkeeping is reasonable. Tools like QuickBooks or Wave make it manageable, and the cost savings matter when every dollar counts.</p><h2>Signs it's time to hire help</h2><p>Several signals indicate you've outgrown the DIY approach. If you're spending more than a few hours each month on bookkeeping, that time has a real cost. If you've missed a tax deadline, miscategorized expenses, or found yourself scrambling to produce financial reports, those are clear warning signs.</p><p>Other triggers include hiring your first employee (payroll adds complexity), taking on debt or investors (who expect accurate financials), or simply finding that you dread the task so much you put it off until problems accumulate.</p><h2>What a bookkeeper actually does</h2><p>A professional bookkeeper handles the day-to-day financial record-keeping: categorizing transactions, reconciling bank accounts, managing accounts payable and receivable, processing payroll, and producing monthly financial statements. They ensure your records are accurate, current, and organized so your accountant can work efficiently at tax time.</p><h2>The cost of getting it wrong</h2><p>Messy books lead to expensive problems. Incorrect financial records can result in overpaying taxes, missing deductions, late payment penalties, and poor business decisions based on inaccurate data. The cost of cleaning up a year of neglected bookkeeping almost always exceeds what professional bookkeeping would have cost in the first place.</p><h2>Finding the right fit</h2><p>You don't need a full-time bookkeeper to get started. Many small businesses work with a bookkeeper for just a few hours per month. Look for someone experienced with your industry and your accounting software. Ask for references, and make sure they can explain your financial reports in terms you understand.</p>"
+      format: content_format
+  schema_image:
+    -
+      entity: e0000001-0001-4000-a000-000000000009
+  schema_author:
+    -
+      entity: b1b2c3d4-2222-4000-a000-000000000002
+  schema_about:
+    -
+      entity: b1b2c3d4-2222-4000-a000-000000000002
+  schema_tags:
+    -
+      entity: a1b2c3d4-1111-4000-a000-000000000003
+    -
+      entity: a1b2c3d4-1111-4000-a000-000000000004

@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.article.schema_about
+    - field.field.node.article.schema_abstract
+    - field.field.node.article.schema_article_body
+    - field.field.node.article.schema_author
+    - field.field.node.article.schema_image
+    - node.type.article
+  module:
+    - user
+third_party_settings: {  }
+id: node.article.card
+targetEntityType: node
+bundle: article
+mode: card
+content:
+  schema_abstract:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  schema_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: 16_9_medium
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  content_moderation_control: true
+  links: true
+  schema_about: true
+  schema_article_body: true
+  schema_author: true

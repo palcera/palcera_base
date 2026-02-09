@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c1b2c3d4-3333-4000-a000-000000000001
+  bundle: article
+  default_langcode: en
+  depends:
+    b1b2c3d4-2222-4000-a000-000000000003: node
+    a1b2c3d4-1111-4000-a000-000000000001: taxonomy_term
+    a1b2c3d4-1111-4000-a000-000000000002: taxonomy_term
+    e0000001-0001-4000-a000-000000000008: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '5 tax deductions small business owners often miss'
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /articles/tax-deductions-small-business
+      langcode: en
+  schema_abstract:
+    -
+      value: 'Many small business owners leave money on the table at tax time. Here are five commonly overlooked deductions that could reduce your tax bill.'
+  schema_article_body:
+    -
+      value: "<p>Tax season doesn't have to mean writing a bigger check than necessary. Many small business owners miss legitimate deductions simply because they don't know they exist or aren't tracking expenses properly throughout the year.</p><h2>1. Home office deduction</h2><p>If you use a dedicated space in your home regularly and exclusively for business, you may qualify for the home office deduction. This applies whether you rent or own, and covers a proportional share of your mortgage or rent, utilities, insurance, and maintenance. The simplified method allows a deduction of $5 per square foot, up to 300 square feet.</p><h2>2. Vehicle and mileage expenses</h2><p>Business-related driving is deductible, but many owners forget to track their miles. Keep a log of business trips, client visits, and supply runs. For 2025, the standard mileage rate is 70 cents per mile. Alternatively, you can deduct actual vehicle expenses like gas, insurance, and depreciation based on business use percentage.</p><h2>3. Professional development</h2><p>Courses, certifications, conferences, and industry publications that maintain or improve your business skills are deductible. This includes online classes, professional memberships, and subscriptions to trade journals. If the education maintains or improves skills required in your current business, it likely qualifies.</p><h2>4. Health insurance premiums</h2><p>Self-employed individuals can deduct health insurance premiums for themselves, their spouse, and dependents. This is an above-the-line deduction, meaning you don't need to itemize to claim it. Many business owners overlook this because they assume it only applies to employer-provided plans.</p><h2>5. Retirement contributions</h2><p>Contributions to SEP-IRAs, SIMPLE IRAs, or solo 401(k) plans reduce your taxable income while building your retirement savings. A SEP-IRA allows contributions up to 25% of net self-employment income. These plans are straightforward to set up and can significantly lower your tax burden.</p><h2>Start tracking now</h2><p>The key to capturing every deduction is consistent record-keeping throughout the year. Don't wait until April to gather receipts. A simple system for categorizing expenses as they happen will save you time and money when tax season arrives.</p>"
+      format: content_format
+  schema_image:
+    -
+      entity: e0000001-0001-4000-a000-000000000008
+  schema_author:
+    -
+      entity: b1b2c3d4-2222-4000-a000-000000000003
+  schema_about:
+    -
+      entity: b1b2c3d4-2222-4000-a000-000000000003
+  schema_tags:
+    -
+      entity: a1b2c3d4-1111-4000-a000-000000000001
+    -
+      entity: a1b2c3d4-1111-4000-a000-000000000002

@@ -4,6 +4,8 @@ _meta:
   uuid: d1b2c3d4-4444-4000-a000-000000000001
   bundle: general_page
   default_langcode: en
+  depends:
+    e0000001-0001-4000-a000-00000000000a: media
 default:
   revision_uid:
     -
@@ -35,8 +37,11 @@ default:
       langcode: en
   schema_text:
     -
-      value: "<p>We are a team dedicated to building modern web experiences that are accessible, performant, and optimized for both people and search engines.</p><h2>Our approach</h2><p>We believe that great websites start with well-structured content. By using industry standards like Schema.org for content modeling, we ensure that every piece of content on your site is meaningful not just to your visitors, but also to search engines and AI platforms.</p><h2>What we do</h2><p>From content strategy to technical implementation, we help organizations establish a professional online presence that grows with their needs. Our solutions are built on open-source technology, giving you full ownership and flexibility over your digital assets.</p><h2>Our values</h2><p>Transparency, quality, and continuous improvement guide everything we do. We stay current with web standards and best practices so our clients benefit from the latest advances in web technology without the complexity of managing it themselves.</p>"
-      format: full_html
+      value: "<p>Mitchell &amp; Associates is a third-generation accounting firm serving small businesses and their owners across the region. We provide tax planning, bookkeeping, payroll, and financial advisory services with a personal, hands-on approach.</p><h2>Our story</h2><p>Founded over 25 years ago, the firm was built on a simple idea: every business deserves an advisor who knows them by name. We started as a two-person tax practice and have grown into a full-service accounting firm, but we have never lost that commitment to personal service. Every client works directly with a senior advisor — no handoffs, no call centers.</p><h2>What we do</h2><p>We handle the financial details so you can focus on running your business. Our services include tax planning and preparation, monthly bookkeeping and reconciliation, payroll processing, cash flow analysis, and strategic financial advisory. Whether you are launching a new venture or managing steady growth, we tailor our services to fit your situation.</p><h2>Our values</h2><p>Accuracy, integrity, and clear communication guide everything we do. We explain your finances in plain language, return calls promptly, and proactively identify opportunities to save you money. Our clients stay with us because we treat their business as seriously as we treat our own.</p>"
+      format: content_format
+  schema_image:
+    -
+      entity: e0000001-0001-4000-a000-00000000000a
   schema_related_link:
     -
       uri: 'internal:/team/elena-martinez'

@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: node
-  uuid: b1b2c3d4-2222-4000-a000-000000000001
+  uuid: b1b2c3d4-2222-4000-a000-000000000003
   bundle: person
   default_langcode: en
   depends:
-    e0000001-0001-4000-a000-000000000005: media
+    e0000001-0001-4000-a000-000000000007: media
 default:
   revision_uid:
     -
@@ -18,7 +18,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'Elena Martinez'
+      value: 'Rachel Lawson'
   promote:
     -
       value: false
@@ -33,39 +33,33 @@ default:
       value: published
   path:
     -
-      alias: /team/elena-martinez
+      alias: /team/rachel-lawson
       langcode: en
   schema_given_name:
     -
-      value: Elena
+      value: Rachel
   schema_family_name:
     -
-      value: Martinez
+      value: Lawson
   schema_email:
     -
-      value: elena@example.com
+      value: rachel@example.com
   schema_telephone:
     -
-      value: '+1-555-0101'
+      value: '+1-555-0103'
   schema_description:
     -
-      value: '<p>Elena is a managing partner and CPA with over 20 years of experience helping small businesses navigate tax strategy, compliance, and financial planning. She founded the firm with a commitment to personal, hands-on advisory.</p>'
+      value: '<p>Rachel is a tax manager with deep expertise in small business taxation, multi-state filings, and proactive tax planning. She helps clients minimize their tax burden while staying fully compliant.</p>'
       format: content_format
   schema_job_title:
     -
-      value: 'Managing Partner, CPA'
+      value: 'Tax Manager'
   schema_works_for:
     -
       value: 'Mitchell & Associates'
-  schema_same_as:
-    -
-      uri: 'https://linkedin.com/in/elena-martinez-example'
-      title: LinkedIn
   schema_image:
     -
-      entity: e0000001-0001-4000-a000-000000000005
+      entity: e0000001-0001-4000-a000-000000000007
   schema_knows_language:
     -
       value: English
-    -
-      value: Spanish

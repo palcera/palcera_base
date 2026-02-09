@@ -4,6 +4,8 @@ _meta:
   uuid: b1b2c3d4-2222-4000-a000-000000000002
   bundle: person
   default_langcode: en
+  depends:
+    e0000001-0001-4000-a000-000000000006: media
 default:
   revision_uid:
     -
@@ -47,11 +49,14 @@ default:
       value: '+1-555-0102'
   schema_description:
     -
-      value: '<p>James is a software architect focused on open-source web technologies. He has contributed to multiple Drupal projects and advocates for structured data and accessible web experiences.</p>'
-      format: full_html
+      value: '<p>James is a senior advisor and CPA who specializes in business advisory and cash flow management for growing companies. He helps clients make informed financial decisions through clear analysis and strategic planning.</p>'
+      format: content_format
+  schema_job_title:
+    -
+      value: 'Senior Advisor, CPA'
   schema_works_for:
     -
-      value: 'Palcera Inc.'
+      value: 'Mitchell & Associates'
   schema_same_as:
     -
       uri: 'https://linkedin.com/in/james-chen-example'
@@ -59,6 +64,9 @@ default:
     -
       uri: 'https://github.com/jameschen-example'
       title: GitHub
+  schema_image:
+    -
+      entity: e0000001-0001-4000-a000-000000000006
   schema_knows_language:
     -
       value: English

@@ -5,19 +5,13 @@ _meta:
   bundle: tags
   default_langcode: en
 default:
-  status:
-    -
-      value: true
   name:
     -
-      value: Business
-  weight:
-    -
-      value: 0
-  revision_translation_affected:
+      value: 'Small Business'
+  status:
     -
       value: true
   path:
     -
+      alias: /tags/small-business
       langcode: en
-      alias: null

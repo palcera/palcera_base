@@ -4,6 +4,8 @@ _meta:
   uuid: d1b2c3d4-4444-4000-a000-000000000002
   bundle: general_page
   default_langcode: en
+  depends:
+    e0000001-0001-4000-a000-00000000000b: media
 default:
   revision_uid:
     -
@@ -35,5 +37,8 @@ default:
       langcode: en
   schema_text:
     -
-      value: "<p>We would love to hear from you. Whether you have a question about our services, need help with your website, or just want to say hello, feel free to reach out.</p><h2>Get in touch</h2><p>Email us at <a href='mailto:hello@example.com'>hello@example.com</a> or give us a call at +1-555-0100. Our team typically responds within one business day.</p><h2>Office hours</h2><p>Monday through Friday, 9:00 AM to 5:00 PM (EST). We are happy to schedule meetings outside regular hours when needed.</p><h2>Location</h2><p>123 Web Street, Suite 200<br>Digital City, DC 10001<br>United States</p>"
-      format: full_html
+      value: "<p>We would love to hear from you. Whether you need help with tax planning, have questions about our bookkeeping services, or want to schedule a free consultation, our team is here to help.</p><h2>Get in touch</h2><p>Email us at <a href='mailto:info@mitchellassociates.example.com'>info@mitchellassociates.example.com</a> or give us a call at +1-555-0100. Our team typically responds within one business day.</p><h2>Office hours</h2><p>Monday through Friday, 8:30 AM to 5:30 PM (EST). Extended hours available during tax season (January through April). We are happy to schedule evening or weekend appointments when needed.</p><h2>Location</h2><p>Mitchell &amp; Associates<br>742 Commerce Drive, Suite 300<br>Oakville, ON L6H 3T7<br>Canada</p>"
+      format: content_format
+  schema_image:
+    -
+      entity: e0000001-0001-4000-a000-00000000000b
