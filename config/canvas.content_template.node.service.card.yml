@@ -1,0 +1,26 @@
+uuid: a3eb460f-cc02-4000-a000-000000000001
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.component.sdc.palcera_theme.card-icon
+    - core.entity_view_mode.node.card
+    - field.field.node.service.field_icon
+    - field.field.node.service.schema_description
+    - node.type.service
+  module:
+    - node
+    - options
+    - text
+    - ui_icons_field
+id: node.service.card
+content_entity_type_id: node
+content_entity_type_bundle: service
+content_entity_type_view_mode: card
+component_tree:
+  -
+    uuid: a1e2c3d4-5003-4000-a000-000000000001
+    component_id: sdc.palcera_theme.card-icon
+    component_version: 002e9ffe10816cfb
+    inputs: '{"icon":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:service\u241dfield_icon\u241e\u241ftarget_id"},"text":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:service\u241dtitle\u241e\u241fvalue"},"description":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:service\u241dschema_description\u241e\u241fprocessed"},"url":{"sourceType":"host-entity-url","absolute":true},"background_color":"muted","text_align":"center","icon_align":"center","icon_size":"large","border_radius":"medium"}'
+exposed_slots: {  }

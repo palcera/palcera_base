@@ -1,0 +1,22 @@
+uuid: 55c62175-bb5e-4f5f-8373-beb607bd87dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.schema_description
+    - node.type.service
+  module:
+    - text
+id: node.service.schema_description
+field_name: schema_description
+entity_type: node
+bundle: service
+label: Description
+description: 'A description of the item.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: d1e8b8c4-b2f2-4be6-961a-3121b47353f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.schema_service_output
+field_name: schema_service_output
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

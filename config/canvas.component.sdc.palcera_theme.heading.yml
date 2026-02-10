@@ -1,3 +1,4 @@
+uuid: 6bd2be0e-5d89-41ad-aa82-5583f1e30b5a
 langcode: en
 status: true
 dependencies:
@@ -5,9 +6,78 @@ dependencies:
     - options
   theme:
     - palcera_theme
-active_version: 80684659bfb1ef65
+_core:
+  default_config_hash: N_--O2MGo4PevNTR_thwG0Ftvas0rXwdQyqTkGOtBek
+active_version: d7c6acbc91a60ac1
 versioned_properties:
   active:
+    settings:
+      prop_field_definitions:
+        heading_text:
+          required: true
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value:
+            -
+              value: 'Your heading goes here'
+          expression: ℹ︎string␟value
+        level:
+          required: true
+          field_type: list_float
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: '2'
+          expression: ℹ︎list_float␟value
+        text_size:
+          required: true
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: heading-responsive-4xl
+          expression: ℹ︎list_string␟value
+        text_color:
+          required: true
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: default
+          expression: ℹ︎list_string␟value
+        align:
+          required: true
+          field_type: list_string
+          field_storage_settings:
+            allowed_values_function: canvas_load_allowed_values_for_component_prop
+          field_instance_settings: {  }
+          field_widget: options_select
+          default_value:
+            -
+              value: left
+          expression: ℹ︎list_string␟value
+        url:
+          required: false
+          field_type: string
+          field_storage_settings: {  }
+          field_instance_settings: {  }
+          field_widget: string_textfield
+          default_value: null
+          expression: ℹ︎string␟value
+    fallback_metadata:
+      slot_definitions: {  }
+  80684659bfb1ef65:
     settings:
       prop_field_definitions:
         heading_text:
@@ -79,4 +149,3 @@ id: sdc.palcera_theme.heading
 provider: palcera_theme
 source: sdc
 source_local_id: 'palcera_theme:heading'
-category: Base

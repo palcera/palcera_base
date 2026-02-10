@@ -110,7 +110,7 @@ default:
         mobile_width: false
         icon_first: false
         disabled: false
-        href: '#services'
+        href: /services
     # =========================================================
     # Section 2: Stats Bar
     # =========================================================
@@ -261,13 +261,13 @@ default:
         text_size: text-sm
         text_color: default
     # =========================================================
-    # Section 3: Services (3-col icon cards)
+    # Section 3: Services (Views block handles grid)
     # =========================================================
     -
       uuid: 10000003-0001-4000-a000-000000000001
       component_id: sdc.palcera_theme.section
       inputs:
-        columns: 33-33-33
+        columns: '100'
         mobile_columns: '1'
         section_header: true
         section_footer: false
@@ -298,57 +298,17 @@ default:
           format: canvas_html_block
         text_size: normal
         text_color: default
-    # Card 1: Tax Planning
+    # Services (Views block — renders service nodes as cards)
     -
       parent_uuid: 10000003-0001-4000-a000-000000000001
       slot: main_slot
       uuid: 10000003-0001-4000-a000-000000000004
-      component_id: sdc.palcera_theme.card-icon
+      component_id: block.views_block.services-listing
       inputs:
-        icon: calculator
-        text: 'Tax Planning & Preparation'
-        description:
-          value: '<p>Proactive tax strategies that minimize your liability while keeping you fully compliant. Individual and business returns filed accurately and on time.</p>'
-          format: canvas_html_block
-        background_color: muted
-        text_align: center
-        icon_align: center
-        icon_size: large
-        border_radius: medium
-    # Card 2: Bookkeeping
-    -
-      parent_uuid: 10000003-0001-4000-a000-000000000001
-      slot: main_slot
-      uuid: 10000003-0001-4000-a000-000000000005
-      component_id: sdc.palcera_theme.card-icon
-      inputs:
-        icon: currency-dollar
-        text: 'Bookkeeping & Payroll'
-        description:
-          value: '<p>Clean, organized financial records every month. Payroll processing, accounts management, and reconciliation so you can focus on running your business.</p>'
-          format: canvas_html_block
-        background_color: muted
-        text_align: center
-        icon_align: center
-        icon_size: large
-        border_radius: medium
-    # Card 3: Business Advisory
-    -
-      parent_uuid: 10000003-0001-4000-a000-000000000001
-      slot: main_slot
-      uuid: 10000003-0001-4000-a000-000000000006
-      component_id: sdc.palcera_theme.card-icon
-      inputs:
-        icon: trend-up
-        text: 'Business Advisory'
-        description:
-          value: '<p>Financial analysis, cash flow forecasting, and strategic planning to help you make informed decisions as your business grows.</p>'
-          format: canvas_html_block
-        background_color: muted
-        text_align: center
-        icon_align: center
-        icon_size: large
-        border_radius: medium
+        label: 'Services: Our services'
+        label_display: '0'
+        views_label: ''
+        items_per_page: null
     # =========================================================
     # Section 4: Feature 1 — Personal Advisor (side-by-side)
     # =========================================================
@@ -402,7 +362,7 @@ default:
         icon: arrow-right
         icon_first: false
         disabled: false
-        href: /about
+        href: /team
     # =========================================================
     # Section 5: Feature 2 — Modern Practice (side-by-side)
     # =========================================================
@@ -456,7 +416,7 @@ default:
         icon: arrow-right
         icon_first: false
         disabled: false
-        href: '#services'
+        href: /services
     # =========================================================
     # Section 6: Team (Views block handles grid)
     # =========================================================

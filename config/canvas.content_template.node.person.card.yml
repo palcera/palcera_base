@@ -1,3 +1,4 @@
+uuid: 4063f738-bc3d-458e-9f22-e7751db8a52b
 langcode: en
 status: true
 dependencies:
@@ -15,6 +16,8 @@ dependencies:
     - media
     - node
     - options
+_core:
+  default_config_hash: jN5RcTn-8Y1HQL8FKYz0W5yCVcPQp_DTfYYc4m8WAHw
 id: node.person.card
 content_entity_type_id: node
 content_entity_type_bundle: person

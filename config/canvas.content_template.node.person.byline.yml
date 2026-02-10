@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.component.sdc.palcera_theme.author-byline
+    - core.entity_view_mode.node.byline
+    - field.field.media.image.field_media_image
+    - field.field.node.person.schema_image
+    - field.field.node.person.schema_job_title
+    - image.style.canvas_parametrized_width
+    - media.type.image
+    - node.type.person
+  module:
+    - file
+    - media
+    - node
+id: node.person.byline
+content_entity_type_id: node
+content_entity_type_bundle: person
+content_entity_type_view_mode: byline
+component_tree:
+  -
+    uuid: a1e2c3d4-5003-4000-a000-000000000001
+    component_id: sdc.palcera_theme.author-byline
+    component_version: c263115fb0954cc9
+    inputs: '{"name":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:person\u241dtitle\u241e\u241fvalue"},"job_title":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:person\u241dschema_job_title\u241e\u241fvalue"},"media":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:person\u241dschema_image\u241e\u241fentity\u241c\u241centity:media:image\u241dfield_media_image\u241e\u241f{src\u21a0src_with_alternate_widths,alt\u21a0alt,width\u21a0width,height\u21a0height}"}}'
+exposed_slots: {  }

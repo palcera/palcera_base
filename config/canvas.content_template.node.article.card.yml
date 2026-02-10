@@ -1,3 +1,4 @@
+uuid: 235f4f0a-ee78-4e9d-b1f6-b9258cd0c39d
 langcode: en
 status: true
 dependencies:
@@ -15,6 +16,8 @@ dependencies:
     - media
     - node
     - options
+_core:
+  default_config_hash: ViHIChqu6XDQO6NVqy6ol5LtySc0Qxb4FPMhbRKxhXM
 id: node.article.card
 content_entity_type_id: node
 content_entity_type_bundle: article

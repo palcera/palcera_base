@@ -35,6 +35,7 @@ install:
   - cva
   - responsive_image
   - ui_icons_menu
+  - ui_icons_field
   # Security
   - seckit
   - antibot

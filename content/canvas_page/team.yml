@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: canvas_page
+  uuid: a1b2c3d4-3333-4000-b000-000000000001
+  default_langcode: en
+default:
+  revision_user:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  owner:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Our Team'
+  components:
+    # =========================================================
+    # Section 1: Page Header
+    # =========================================================
+    -
+      uuid: d0000001-0001-4000-a000-000000000001
+      component_id: sdc.palcera_theme.section
+      component_version: a917d5c9be8f2830
+      inputs:
+        columns: '100'
+        width: 75%
+        margin_block_start: '48'
+        margin_block_end: '0'
+        mobile_columns: 1
+        padding_block_start: '0'
+        padding_block_end: '0'
+        section_header: true
+        section_footer: false
+    -
+      parent_uuid: d0000001-0001-4000-a000-000000000001
+      slot: header_slot
+      uuid: d0000001-0001-4000-a000-000000000002
+      component_id: sdc.palcera_theme.heading
+      component_version: d7c6acbc91a60ac1
+      inputs:
+        heading_text: 'Meet our team'
+        level: 1
+        text_size: default
+        text_color: default
+        align: center
+    -
+      parent_uuid: d0000001-0001-4000-a000-000000000001
+      slot: header_slot
+      uuid: d0000001-0001-4000-a000-000000000003
+      component_id: sdc.palcera_theme.text
+      component_version: 16c79c28a4108f9b
+      inputs:
+        text: 'Every client works directly with a senior advisor. No handoffs, no runaround.'
+        text_size: text-lg
+        text_color: default
+    # =========================================================
+    # Section 2: Team Members (Views Block)
+    # =========================================================
+    -
+      uuid: d0000001-0001-4000-a000-000000000010
+      component_id: sdc.palcera_theme.section
+      component_version: a917d5c9be8f2830
+      inputs:
+        columns: '100'
+        width: 100%
+        margin_block_start: '48'
+        margin_block_end: '48'
+        mobile_columns: 1
+        padding_block_start: '0'
+        padding_block_end: '0'
+        section_header: false
+        section_footer: false
+    -
+      parent_uuid: d0000001-0001-4000-a000-000000000010
+      slot: main_slot
+      uuid: d0000001-0001-4000-a000-000000000011
+      component_id: block.views_block.team_members-team
+      component_version: 21f8edf9c442da00
+      inputs:
+        label: 'Team Members'
+        label_display: '0'
+        views_label: ''
+        items_per_page: null
+  path:
+    -
+      alias: /team
+      langcode: en
+  metatags:
+    -
+      value: '{"description":"Meet the experienced advisors at Mitchell & Associates.","title":"Our Team | [site:name]"}'
