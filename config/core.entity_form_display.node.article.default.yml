@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.article.field_component_tree
-    - field.field.node.article.field_metatag
     - field.field.node.article.schema_about
     - field.field.node.article.schema_abstract
     - field.field.node.article.schema_article_body
@@ -19,7 +18,6 @@ dependencies:
   module:
     - content_moderation
     - media_library
-    - metatag
     - path
     - tagify
     - text
@@ -33,14 +31,6 @@ content:
     weight: 200
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_metatag:
-    type: metatag_firehose
-    weight: 10
-    region: content
-    settings:
-      sidebar: true
-      use_details: true
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default

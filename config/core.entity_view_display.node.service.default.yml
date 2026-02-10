@@ -4,11 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.service.field_icon
-    - field.field.node.service.field_metatag
-    - field.field.node.service.field_seo_analysis
-    - field.field.node.service.field_seo_description
-    - field.field.node.service.field_seo_image
-    - field.field.node.service.field_seo_title
     - field.field.node.service.schema_description
     - field.field.node.service.schema_hours_available
     - field.field.node.service.schema_image
@@ -104,9 +99,4 @@ content:
     weight: 94
     region: content
 hidden:
-  field_metatag: true
-  field_seo_analysis: true
-  field_seo_description: true
-  field_seo_image: true
-  field_seo_title: true
   search_api_excerpt: true
