@@ -71,9 +71,21 @@ default:
         mobile_columns: 1
         padding_block_start: '0'
         padding_block_end: '0'
-        section_header: false
+        section_header: true
         section_footer: false
         views_columns: 50-50
+    -
+      parent_uuid: c0000001-0001-4000-a000-000000000010
+      slot: header_slot
+      uuid: c0000001-0001-4000-a000-000000000012
+      component_id: sdc.palcera_theme.heading
+      component_version: d7c6acbc91a60ac1
+      inputs:
+        heading_text: 'All articles'
+        level: 2
+        text_size: default
+        text_color: default
+        align: left
     -
       parent_uuid: c0000001-0001-4000-a000-000000000010
       slot: main_slot

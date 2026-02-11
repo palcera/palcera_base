@@ -120,7 +120,7 @@ default:
       inputs:
         columns: 25-25-25-25
         mobile_columns: '2'
-        section_header: false
+        section_header: true
         section_footer: false
         margin_block_start: '0'
         margin_block_end: '0'
@@ -128,6 +128,17 @@ default:
         padding_block_end: '32'
         width: 100%
         background_color: muted
+    -
+      parent_uuid: 10000002-0001-4000-a000-000000000001
+      slot: header_slot
+      uuid: 10000002-0001-4000-a000-00000000000e
+      component_id: sdc.palcera_theme.heading
+      inputs:
+        heading_text: 'Mitchell & Associates at a glance'
+        level: 2
+        text_size: default
+        text_color: default
+        align: center
     # Stat 1: 25+
     -
       parent_uuid: 10000002-0001-4000-a000-000000000001
@@ -146,7 +157,7 @@ default:
       component_id: sdc.palcera_theme.heading
       inputs:
         heading_text: '25+'
-        level: 2
+        level: 3
         text_size: heading-responsive-4xl
         text_color: primary
         align: center
@@ -179,7 +190,7 @@ default:
       component_id: sdc.palcera_theme.heading
       inputs:
         heading_text: '400+'
-        level: 2
+        level: 3
         text_size: heading-responsive-4xl
         text_color: primary
         align: center
@@ -212,7 +223,7 @@ default:
       component_id: sdc.palcera_theme.heading
       inputs:
         heading_text: '99%'
-        level: 2
+        level: 3
         text_size: heading-responsive-4xl
         text_color: primary
         align: center
@@ -245,7 +256,7 @@ default:
       component_id: sdc.palcera_theme.heading
       inputs:
         heading_text: '3rd'
-        level: 2
+        level: 3
         text_size: heading-responsive-4xl
         text_color: primary
         align: center

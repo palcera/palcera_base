@@ -71,8 +71,20 @@ default:
         mobile_columns: 1
         padding_block_start: '0'
         padding_block_end: '0'
-        section_header: false
+        section_header: true
         section_footer: false
+    -
+      parent_uuid: d0000002-0001-4000-a000-000000000010
+      slot: header_slot
+      uuid: d0000002-0001-4000-a000-000000000012
+      component_id: sdc.palcera_theme.heading
+      component_version: d7c6acbc91a60ac1
+      inputs:
+        heading_text: 'What we offer'
+        level: 2
+        text_size: default
+        text_color: default
+        align: left
     -
       parent_uuid: d0000002-0001-4000-a000-000000000010
       slot: main_slot
