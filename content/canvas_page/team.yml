@@ -39,7 +39,7 @@ default:
       slot: header_slot
       uuid: d0000001-0001-4000-a000-000000000002
       component_id: sdc.palcera_theme.heading
-      component_version: d7c6acbc91a60ac1
+      component_version: 6e6854ead521fa05
       inputs:
         heading_text: 'Meet our team'
         level: 1
@@ -78,7 +78,7 @@ default:
       slot: header_slot
       uuid: d0000001-0001-4000-a000-000000000012
       component_id: sdc.palcera_theme.heading
-      component_version: d7c6acbc91a60ac1
+      component_version: 6e6854ead521fa05
       inputs:
         heading_text: 'Our advisors'
         level: 2
@@ -90,7 +90,7 @@ default:
       slot: main_slot
       uuid: d0000001-0001-4000-a000-000000000011
       component_id: block.views_block.team_members-team
-      component_version: 21f8edf9c442da00
+      component_version: 93cf1c26396ada18
       inputs:
         label: 'Team Members'
         label_display: '0'

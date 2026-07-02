@@ -30,7 +30,7 @@ component_tree:
   0:
     uuid: b0000002-0001-4000-a000-000000000001
     component_id: block.system_breadcrumb_block
-    component_version: ad6359c331fc7c45
+    component_version: 0d7e961dd03aa710
     inputs: '{"label":"Breadcrumbs","label_display":"0"}'
   1:
     uuid: b0000002-0001-4000-a000-000000000002
@@ -54,7 +54,7 @@ component_tree:
     slot: main_slot
     uuid: b0000002-0001-4000-a000-000000000008
     component_id: block.views_block.article_author-author
-    component_version: 701328914b351427
+    component_version: 5cbf4f51b879da69
     inputs: '{"label":"Article Author","label_display":"0","views_label":"","items_per_page":null}'
   3:
     uuid: b0000002-0001-4000-a000-000000000005
@@ -66,13 +66,13 @@ component_tree:
     slot: header_slot
     uuid: b0000002-0001-4000-a000-000000000006
     component_id: sdc.palcera_theme.heading
-    component_version: d7c6acbc91a60ac1
+    component_version: 6e6854ead521fa05
     inputs: '{"heading_text":"More articles","level":2,"text_size":"default","text_color":"default","align":"center"}'
   '3:main_slot:0':
     parent_uuid: b0000002-0001-4000-a000-000000000005
     slot: main_slot
     uuid: b0000002-0001-4000-a000-000000000007
     component_id: block.views_block.latest_articles-latest
-    component_version: 70ac44f2e518fc56
+    component_version: 1349457c1ec55cb0
     inputs: '{"label":"Latest Articles","label_display":"0","views_label":"","items_per_page":null}'
 exposed_slots: {  }

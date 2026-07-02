@@ -33,7 +33,7 @@ component_tree:
   0:
     uuid: b0000003-0001-4000-a000-000000000001
     component_id: block.system_breadcrumb_block
-    component_version: ad6359c331fc7c45
+    component_version: 0d7e961dd03aa710
     inputs: '{"label":"Breadcrumbs","label_display":"0"}'
   1:
     uuid: b0000003-0001-4000-a000-000000000002
@@ -61,14 +61,14 @@ component_tree:
     slot: main_slot
     uuid: b0000003-0001-4000-a000-000000000004
     component_id: sdc.palcera_theme.group
-    component_version: 334f085d3013dfb3
+    component_version: 5b8517841c0015ea
     inputs: '{"flex_direction":"column","flex_gap":"sm","flex_align":"start","items_align":"start"}'
   '1:main_slot:1:group_slot:0':
     parent_uuid: b0000003-0001-4000-a000-000000000004
     slot: group_slot
     uuid: b0000003-0001-4000-a000-000000000005
     component_id: sdc.palcera_theme.heading
-    component_version: d7c6acbc91a60ac1
+    component_version: 6e6854ead521fa05
     inputs: '{"heading_text":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:person\u241dtitle\u241e\u241fvalue"},"level":1,"text_size":"default","text_color":"default","align":"left","url":"No URL"}'
   '1:main_slot:1:group_slot:1':
     parent_uuid: b0000003-0001-4000-a000-000000000004

@@ -39,7 +39,7 @@ default:
       slot: header_slot
       uuid: c0000001-0001-4000-a000-000000000002
       component_id: sdc.palcera_theme.heading
-      component_version: d7c6acbc91a60ac1
+      component_version: 6e6854ead521fa05
       inputs:
         heading_text: Insights for business owners
         level: 1
@@ -79,7 +79,7 @@ default:
       slot: header_slot
       uuid: c0000001-0001-4000-a000-000000000012
       component_id: sdc.palcera_theme.heading
-      component_version: d7c6acbc91a60ac1
+      component_version: 6e6854ead521fa05
       inputs:
         heading_text: 'All articles'
         level: 2
@@ -91,7 +91,7 @@ default:
       slot: main_slot
       uuid: c0000001-0001-4000-a000-000000000011
       component_id: block.views_block.latest_articles-latest
-      component_version: 70ac44f2e518fc56
+      component_version: 1349457c1ec55cb0
       inputs:
         label: 'Latest Articles'
         label_display: '0'

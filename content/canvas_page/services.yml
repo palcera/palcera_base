@@ -39,7 +39,7 @@ default:
       slot: header_slot
       uuid: d0000002-0001-4000-a000-000000000002
       component_id: sdc.palcera_theme.heading
-      component_version: d7c6acbc91a60ac1
+      component_version: 6e6854ead521fa05
       inputs:
         heading_text: 'Our services'
         level: 1
@@ -78,7 +78,7 @@ default:
       slot: header_slot
       uuid: d0000002-0001-4000-a000-000000000012
       component_id: sdc.palcera_theme.heading
-      component_version: d7c6acbc91a60ac1
+      component_version: 6e6854ead521fa05
       inputs:
         heading_text: 'What we offer'
         level: 2

@@ -31,7 +31,7 @@ component_tree:
   0:
     uuid: b0000005-0001-4000-a000-000000000001
     component_id: block.system_breadcrumb_block
-    component_version: ad6359c331fc7c45
+    component_version: 0d7e961dd03aa710
     inputs: '{"label":"Breadcrumbs","label_display":"0"}'
   1:
     uuid: b0000005-0001-4000-a000-000000000002
@@ -50,7 +50,7 @@ component_tree:
     slot: main_slot
     uuid: b0000005-0001-4000-a000-000000000004
     component_id: sdc.palcera_theme.heading
-    component_version: d7c6acbc91a60ac1
+    component_version: 6e6854ead521fa05
     inputs: '{"heading_text":{"sourceType":"dynamic","expression":"\u2139\ufe0e\u241centity:node:service\u241dtitle\u241e\u241fvalue"},"level":1,"text_size":"heading-responsive-5xl","text_color":"default","align":"left","url":"No URL"}'
   2:
     uuid: b0000005-0001-4000-a000-000000000005
@@ -67,7 +67,7 @@ component_tree:
   3:
     uuid: b0000005-0001-4000-a000-000000000007
     component_id: sdc.palcera_theme.cta
-    component_version: 3e24fb49e950d1db
+    component_version: 8a4b09426767fa38
     inputs: '{"heading_text":"Ready to get started?","level":2,"text":"Book a free 30-minute consultation. We''ll review your situation, answer your questions, and see if we''re the right fit.","text_align":"center","background_color":"inverted"}'
   '3:actions:0':
     parent_uuid: b0000005-0001-4000-a000-000000000007

@@ -26,26 +26,26 @@ component_tree:
     slot: footer_first
     uuid: cc01f585-46ec-48a4-90b6-570277d1f370
     component_id: block.system_branding_block
-    component_version: b168140fdcaebae5
+    component_version: 7d528e00f56b3abf
     inputs: '{"label":"Site branding","label_display":"0","use_site_logo":true,"use_site_name":false,"use_site_slogan":false}'
   '0:footer_first:1':
     parent_uuid: b4ea9fb2-d3fc-428a-9114-bce92069cbab
     slot: footer_first
     uuid: fdcf2eb9-c422-4a13-8467-0407d8c2f127
     component_id: block.system_menu_block.footer
-    component_version: 68bdb40e1ac48125
+    component_version: 075503dbc228a45c
     inputs: '{"label":"Footer","label_display":"0","level":1,"depth":null,"expand_all_items":false}'
   '0:footer_last:0':
     parent_uuid: b4ea9fb2-d3fc-428a-9114-bce92069cbab
     slot: footer_last
     uuid: e9f2b3c4-d5e6-4f70-b8c9-d0e1f2a3b4c5
     component_id: sdc.palcera_theme.text
-    component_version: 21cbfe93d4622099
+    component_version: 16c79c28a4108f9b
     inputs: '{"text":{"value":"\u003Cp\u003E\u003Cstrong\u003EContact\u003C\/strong\u003E\u003C\/p\u003E\u003Cp\u003E\u003Ca href=\u0022tel:+15551234567\u0022\u003E(555) 123-4567\u003C\/a\u003E\u003C\/p\u003E\u003Cp\u003E\u003Ca href=\u0022mailto:hello@mitchell.example\u0022\u003Ehello@mitchell.example\u003C\/a\u003E\u003C\/p\u003E","format":"canvas_html_block"},"text_size":"normal","text_color":"default"}'
   '0:footer_utility_last:0':
     parent_uuid: b4ea9fb2-d3fc-428a-9114-bce92069cbab
     slot: footer_utility_last
     uuid: a606580b-bd8b-4576-b89e-b9f97ef72d91
     component_id: sdc.palcera_theme.text
-    component_version: 21cbfe93d4622099
+    component_version: 16c79c28a4108f9b
     inputs: '{"text":{"value":"\u003Cp\u003E\u00a9 Copyright 2026 Mitchell \u0026 Associates. All rights reserved.\u003C\/p\u003E","format":"canvas_html_block"},"text_size":"text-sm","text_color":"default"}'
